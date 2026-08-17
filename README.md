@@ -13,9 +13,12 @@ desk for a massage salon. It answers clients as the salon, books them into real 
 reminds them before the visit, and hands the conversation to a human the moment it touches
 something it must not decide alone: health, money, a cancellation.
 
-The interesting part is not the model, it is the layer around it: the model returns a
-structure and never acts. **505 tests, 132 of 132 mutations caught** — every guard has a
-mutation proving the test that protects it can turn red.
+The interesting part is not the model, it is the layer around it. The LLM sits behind a
+one-method interface (Cerebras `gpt-oss-120b` today, Claude Haiku 4.5 as the production
+choice), answers under a **strict JSON schema** rather than in free text, and never performs
+an action — it returns a structure that guarded code decides whether to execute.
+**505 tests, 132 of 132 mutations caught**: every guard has a mutation proving the test that
+protects it can turn red.
 
 ---
 
@@ -23,7 +26,7 @@ mutation proving the test that protects it can turn red.
 
 | Project | What it is | Built with |
 |---|---|---|
-| **[AICONIC](https://github.com/HeorhiHalavach/aiconic-telegram-concierge)** | A Telegram concierge that cannot invent a price, plus an admin window that shows every messenger in one feed | Python · Telethon · FastAPI · pytest |
+| **[AICONIC](https://github.com/HeorhiHalavach/aiconic-telegram-concierge)** | A Telegram concierge that cannot invent a price, plus an admin window that shows every messenger in one feed | Python · Telethon · LLM under a JSON schema · FastAPI · pytest |
 | **[The Data Refinery](https://github.com/HeorhiHalavach/the-data-refinery-hackathon)** | A gateway that turns untrusted documents and images into clean JSON: blocks PDF/SVG payloads, strips EXIF, neutralises CSV injection, redacts PII | FastAPI · React · Docker |
 | **[Nawigator Umysłu](https://github.com/HeorhiHalavach/hackathon-AI)** | A mood journal where an external LLM analyses your entries but never sees your name, e-mail or city — text is masked locally first | FastAPI · React · spaCy · Bielik LLM |
 | **[Księgarnia](https://github.com/HeorhiHalavach/Ksiegarnia)** | An online bookshop assembled from parts, not from a framework: hand-written models, session auth, admin panel, 68 tests | Express · MySQL · EJS · Jest |
