@@ -6,6 +6,10 @@ backends whose tests can genuinely fail.
 
 ---
 
+[![AICONIC — the admin window: messengers, the feed, one conversation, a confirmed booking](https://raw.githubusercontent.com/HeorhiHalavach/aiconic-telegram-concierge/master/docs/screens/walkthrough.gif)](https://github.com/HeorhiHalavach/aiconic-telegram-concierge)
+
+---
+
 ### What I am building now
 
 **[AICONIC](https://github.com/HeorhiHalavach/aiconic-telegram-concierge)** — a Telegram front
