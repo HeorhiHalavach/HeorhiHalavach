@@ -6,6 +6,8 @@
 </p>
 
 <p align="center">
+  <a href="https://heorhihalavach.github.io"><img src="https://img.shields.io/badge/site-heorhihalavach.github.io-0b6e5f?style=flat-square" alt="site"></a>
+  <a href="https://heorhihalavach.github.io/cv.pdf"><img src="https://img.shields.io/badge/CV-one%20page%20PDF-495057?style=flat-square" alt="CV"></a>
   <a href="mailto:halavachheorhi@gmail.com"><img src="https://img.shields.io/badge/e--mail-halavachheorhi%40gmail.com-0b7285?style=flat-square" alt="e-mail"></a>
   <img src="https://img.shields.io/badge/open%20to-freelance-2b8a3e?style=flat-square" alt="open to freelance">
   <img src="https://img.shields.io/badge/languages-RU%2C%20PL%2C%20EN-495057?style=flat-square" alt="languages">
