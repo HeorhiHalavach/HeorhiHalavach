@@ -36,6 +36,20 @@ API, database, browser — and drop down to C and C++ when the task sits closer 
 
 ---
 
+### Stack
+
+| | |
+|---|---|
+| **Languages** | Python · JavaScript · C++ · C · SQL |
+| **Backend** | FastAPI · Express · Uvicorn · SQLAlchemy · Pydantic · Telethon |
+| **Frontend** | React · Vite · EJS · Tailwind · plain HTML/JS |
+| **Data** | MySQL · SQLite · YAML · CSV |
+| **LLM** | Cerebras · Claude · strict JSON schema · prompt assembly · quota measurement |
+| **Testing** | pytest · Jest · supertest · mutation testing |
+| **Tools** | Docker &amp; Compose · Nginx · Git · Linux · devbox · Doxygen · premake5 · wxWidgets · raylib |
+
+---
+
 ### Projects
 
 <table>
